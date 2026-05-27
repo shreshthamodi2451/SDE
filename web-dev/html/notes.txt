@@ -1,0 +1,28 @@
+ctrl + / for comments
+a tag
+a href for links
+h3 gives bold
+
+address html mdn
+cite html mdn
+
+<a target="_blank" href="http://google.com">Google</a>
+//blank to make the link open in new tab
+
+table>tr(table row)>th(table head)*3 (the no of rows req)
+tr>td(table data)
+
+style
+then target element
+for eg:
+<style>
+body{
+
+}
+
+forms:
+form action="url" method="post(to put int server)/ get
+
+to see later:
+
+image map
