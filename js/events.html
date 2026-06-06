@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <h2> amazing images </h2>
+    <div>
+        <ul id=" images">
+            <li> 
+                <image width = '200px' id="photoshop" src="https://img.magnific.com/free-photo/nature-landscape-with-hand-holding-frame_23-2149389976.jpg?semt=ais_hybrid&w=740&q=80" alt="photoshop">
+            </li>
+            <li> 
+                <image width = '200px' id="feather" src="https://i.pinimg.com/736x/2d/95/e5/2d95e5886fc4c65a6778b5fee94a7d59.jpg" alt="feather">
+            </li>
+            <li> 
+                <image width = '200px' id=" tiger" src="https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_640.jpg" alt="tiger">
+            </li>
+            <li> 
+                <image width = '200px' id=" garden" src="https://www.shutterstock.com/image-photo/sun-sets-behind-mountain-ranges-600nw-2479236003.jpg" alt="garden">
+            </li>
+        </ul>
+    </div>
+</body>
+<script> 
+    // document.getElementById('feather').onclick= function() {
+    //     alert('feather clicked')
+    // }
+
+    //e is event object
+    document.getElementById('feather').addEventListener('click', function(e){
+        // alert('feather clicked')
+        
+    })
+
+    //attachEvent()
+
+</script>
+</html>

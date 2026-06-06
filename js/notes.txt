@@ -15,3 +15,8 @@ do later:
 date end part
 
 
+on browser
+console(document)
+document.uri to get url of website
+.links to get all links in website
+.getelemmentbyid("first headinf).innerHTML= "<h1>shreshtha</h1>"
