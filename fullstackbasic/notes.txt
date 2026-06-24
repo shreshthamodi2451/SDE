@@ -1,0 +1,10 @@
+npm init to get node.js
+npm i express
+make server.js
+in package.json in scripts make start= node server.js 
+
+to import express you need to add type module in package.json
+
+cors - cross origin
+different port or url
+add proxy to fix thisss
