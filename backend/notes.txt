@@ -1,0 +1,14 @@
+browser on computer/mobile
+server made using express
+listen can happen anywhere /:home, /login
+we handle get requests
+
+npm init to make emtpy node file
+in package.json repalce tests in scrpits with
+start: node index.js
+
+then 
+npm install express
+
+then 
+npm i dotenv
